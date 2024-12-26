@@ -1,0 +1,3196 @@
+{
+    "phi3.5:3.8b-mini-instruct-q8_0": {
+        "TEMP_0.0": {
+            "R_0": [
+                [
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "UP or RIGHT (choose one)\nIf UP is chosen: [4,1]\nIf RIGHT is chosen: [5,0]\nIf either choice leads to going out of bounds at step 5 in x-direction for example ([20,0]), then reply with STOP.",
+                    "UP",
+                    "UP or RIGHT (choose one)\nIf UP is chosen: [4, 2]\nIf RIGHT is chosen: [5, 1]\nIf either choice leads to going out of bounds at step 7, reply with STOP. For example, if choosing DOWN from [4, 1], it would be outside the grid and should result in STOP.",
+                    "UP or RIGHT (choose one)\nIf UP is chosen: [4, 2]\nIf RIGHT is chosen: [5, 1]\nIf either choice leads to going out of bounds at step 8, reply with STOP. For example, if choosing DOWN from [4, 1], it would be outside the grid and should result in STOP.",
+                    "UP or RIGHT (choose one)\nIf UP: [3,1]\nIf RIGHT: [4,2]\n(Note that if either choice would result in going out of bounds at step 8 on a grid centered at [0,0], you should reply with STOP.)",
+                    "UP or RIGHT (choose one)\nIf UP is chosen: [4, 2]\nIf RIGHT is chosen: [5, 1]\nIf either choice leads to going out of bounds at step 9, reply with STOP. For example, if choosing DOWN would result in a negative y-coordinate (step below the grid), then you should respond with STOP.",
+                    "UP or RIGHT (choose one)\nIf UP is chosen: [4, 2]\nIf RIGHT is chosen: [5, 1]\nIf either choice leads to going out of bounds at step 10+X, then reply with STOP. For example, if choosing UP again would result in a position outside the grid boundaries (either x < -20 or y > 20), you should respond: STOP",
+                    "UP or RIGHT (choose one)\nIf UP: [3,1]\nIf RIGHT: [4,2]\nSTOP if either position is outside of grid bounds (-20 <= x,y <= 19). For example, STOP for [-20, y], where 'y' > 19.",
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "UP or RIGHT (choose one)\nIf UP is chosen:\nSTOP (since moving up would take us outside the grid at [7,1])\nIf RIGHT is chosen:\nRIGHT (valid move within the grid boundaries)",
+                    "RIGHT",
+                    "UP or RIGHT (choose one)\nIf UP is chosen:\nSTOP\nIf RIGHT is chosen:\nSTOP\n(Note that moving either direction would result in going out of bounds, hence STOP.)",
+                    "UP or RIGHT (choose one)\nIf UP is chosen:\nSTOP\nIf RIGHT is chosen:\nSTOP\n(Note that moving either direction would result in going out of bounds, hence STOP.)"
+                ],
+                [
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        1,
+                        0
+                    ],
+                    [
+                        2,
+                        0
+                    ],
+                    [
+                        3,
+                        0
+                    ],
+                    [
+                        4,
+                        0
+                    ],
+                    [
+                        4,
+                        0
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        5,
+                        1
+                    ],
+                    [
+                        6,
+                        1
+                    ],
+                    [
+                        7,
+                        1
+                    ],
+                    [
+                        8,
+                        1
+                    ],
+                    [
+                        8,
+                        1
+                    ],
+                    [
+                        9,
+                        1
+                    ],
+                    [
+                        9,
+                        1
+                    ]
+                ]
+            ],
+            "R_1": [
+                [
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "UP or RIGHT (choose one)\nIf UP is chosen: [4,1]\nIf RIGHT is chosen: [5,0]\nIf either choice leads to going out of bounds at step 5 in x-direction for example ([20,0]), then reply with STOP.",
+                    "UP",
+                    "UP or RIGHT (choose one)\nIf UP is chosen: [4, 2]\nIf RIGHT is chosen: [5, 1]\nIf either choice leads to going out of bounds at step 7, reply with STOP. For example, if choosing DOWN from [4, 1], it would be outside the grid and should result in STOP.",
+                    "UP or RIGHT (choose one)\nIf UP is chosen: [4, 2]\nIf RIGHT is chosen: [5, 1]\nIf either choice leads to going out of bounds at step 8, reply with STOP. For example, if choosing DOWN from [4, 1], it would be outside the grid and should result in STOP.",
+                    "UP or RIGHT (choose one)\nIf UP: [3,1]\nIf RIGHT: [4,2]\n(Note that if either choice would result in going out of bounds at step 8 on a grid centered at [0,0], you should reply with STOP.)",
+                    "UP or RIGHT (choose one)\nIf UP is chosen: [4, 2]\nIf RIGHT is chosen: [5, 1]\nIf either choice leads to going out of bounds at step 9, reply with STOP. For example, if choosing DOWN would result in a negative y-coordinate (step below the grid), then you should respond with STOP.",
+                    "UP or RIGHT (choose one)\nIf UP is chosen: [4, 2]\nIf RIGHT is chosen: [5, 1]\nIf either choice leads to going out of bounds at step 10+X, then reply with STOP. For example, if choosing UP again would result in a position outside the grid boundaries (either x < -20 or y > 20), you should respond: STOP",
+                    "UP or RIGHT (choose one)\nIf UP: [3,1]\nIf RIGHT: [4,2]\nSTOP if either position is outside of grid bounds (-20 <= x,y <= 19). For example, STOP for [-20, y], where 'y' > 19.",
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "UP or RIGHT (choose one)\nIf UP is chosen:\nSTOP (since moving up would take us outside the grid at [7,1])\nIf RIGHT is chosen:\nRIGHT (valid move within the grid boundaries)",
+                    "RIGHT",
+                    "UP or RIGHT (choose one)\nIf UP is chosen:\nSTOP\nIf RIGHT is chosen:\nSTOP\n(Note that moving either direction would result in going out of bounds, hence STOP.)",
+                    "UP or RIGHT (choose one)\nIf UP is chosen:\nSTOP\nIf RIGHT is chosen:\nSTOP\n(Note that moving either direction would result in going out of bounds, hence STOP.)"
+                ],
+                [
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        1,
+                        0
+                    ],
+                    [
+                        2,
+                        0
+                    ],
+                    [
+                        3,
+                        0
+                    ],
+                    [
+                        4,
+                        0
+                    ],
+                    [
+                        4,
+                        0
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        5,
+                        1
+                    ],
+                    [
+                        6,
+                        1
+                    ],
+                    [
+                        7,
+                        1
+                    ],
+                    [
+                        8,
+                        1
+                    ],
+                    [
+                        8,
+                        1
+                    ],
+                    [
+                        9,
+                        1
+                    ],
+                    [
+                        9,
+                        1
+                    ]
+                ]
+            ],
+            "R_2": [
+                [
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "UP or RIGHT (choose one)\nIf UP is chosen: [4,1]\nIf RIGHT is chosen: [5,0]\nIf either choice leads to going out of bounds at step 5 in x-direction for example ([20,0]), then reply with STOP.",
+                    "UP",
+                    "UP or RIGHT (choose one)\nIf UP is chosen: [4, 2]\nIf RIGHT is chosen: [5, 1]\nIf either choice leads to going out of bounds at step 7, reply with STOP. For example, if choosing DOWN from [4, 1], it would be outside the grid and should result in STOP.",
+                    "UP or RIGHT (choose one)\nIf UP is chosen: [4, 2]\nIf RIGHT is chosen: [5, 1]\nIf either choice leads to going out of bounds at step 8, reply with STOP. For example, if choosing DOWN from [4, 1], it would be outside the grid and should result in STOP.",
+                    "UP or RIGHT (choose one)\nIf UP: [3,1]\nIf RIGHT: [4,2]\n(Note that if either choice would result in going out of bounds at step 8 on a grid centered at [0,0], you should reply with STOP.)",
+                    "UP or RIGHT (choose one)\nIf UP is chosen: [4, 2]\nIf RIGHT is chosen: [5, 1]\nIf either choice leads to going out of bounds at step 9, reply with STOP. For example, if choosing DOWN would result in a negative y-coordinate (step below the grid), then you should respond with STOP.",
+                    "UP or RIGHT (choose one)\nIf UP is chosen: [4, 2]\nIf RIGHT is chosen: [5, 1]\nIf either choice leads to going out of bounds at step 10+X, then reply with STOP. For example, if choosing UP again would result in a position outside the grid boundaries (either x < -20 or y > 20), you should respond: STOP",
+                    "UP or RIGHT (choose one)\nIf UP: [3,1]\nIf RIGHT: [4,2]\nSTOP if either position is outside of grid bounds (-20 <= x,y <= 19). For example, STOP for [-20, y], where 'y' > 19.",
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "UP or RIGHT (choose one)\nIf UP is chosen:\nSTOP (since moving up would take us outside the grid at [7,1])\nIf RIGHT is chosen:\nRIGHT (valid move within the grid boundaries)",
+                    "RIGHT",
+                    "UP or RIGHT (choose one)\nIf UP is chosen:\nSTOP\nIf RIGHT is chosen:\nSTOP\n(Note that moving either direction would result in going out of bounds, hence STOP.)",
+                    "UP or RIGHT (choose one)\nIf UP is chosen:\nSTOP\nIf RIGHT is chosen:\nSTOP\n(Note that moving either direction would result in going out of bounds, hence STOP.)"
+                ],
+                [
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        1,
+                        0
+                    ],
+                    [
+                        2,
+                        0
+                    ],
+                    [
+                        3,
+                        0
+                    ],
+                    [
+                        4,
+                        0
+                    ],
+                    [
+                        4,
+                        0
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        5,
+                        1
+                    ],
+                    [
+                        6,
+                        1
+                    ],
+                    [
+                        7,
+                        1
+                    ],
+                    [
+                        8,
+                        1
+                    ],
+                    [
+                        8,
+                        1
+                    ],
+                    [
+                        9,
+                        1
+                    ],
+                    [
+                        9,
+                        1
+                    ]
+                ]
+            ],
+            "R_3": [
+                [
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "UP or RIGHT (choose one)\nIf UP is chosen: [4,1]\nIf RIGHT is chosen: [5,0]\nIf either choice leads to going out of bounds at step 5 in x-direction for example ([20,0]), then reply with STOP.",
+                    "UP",
+                    "UP or RIGHT (choose one)\nIf UP is chosen: [4, 2]\nIf RIGHT is chosen: [5, 1]\nIf either choice leads to going out of bounds at step 7, reply with STOP. For example, if choosing DOWN from [4, 1], it would be outside the grid and should result in STOP.",
+                    "UP or RIGHT (choose one)\nIf UP is chosen: [4, 2]\nIf RIGHT is chosen: [5, 1]\nIf either choice leads to going out of bounds at step 8, reply with STOP. For example, if choosing DOWN from [4, 1], it would be outside the grid and should result in STOP.",
+                    "UP or RIGHT (choose one)\nIf UP: [3,1]\nIf RIGHT: [4,2]\n(Note that if either choice would result in going out of bounds at step 8 on a grid centered at [0,0], you should reply with STOP.)",
+                    "UP or RIGHT (choose one)\nIf UP is chosen: [4, 2]\nIf RIGHT is chosen: [5, 1]\nIf either choice leads to going out of bounds at step 9, reply with STOP. For example, if choosing DOWN would result in a negative y-coordinate (step below the grid), then you should respond with STOP.",
+                    "UP or RIGHT (choose one)\nIf UP is chosen: [4, 2]\nIf RIGHT is chosen: [5, 1]\nIf either choice leads to going out of bounds at step 10+X, then reply with STOP. For example, if choosing UP again would result in a position outside the grid boundaries (either x < -20 or y > 20), you should respond: STOP",
+                    "UP or RIGHT (choose one)\nIf UP: [3,1]\nIf RIGHT: [4,2]\nSTOP if either position is outside of grid bounds (-20 <= x,y <= 19). For example, STOP for [-20, y], where 'y' > 19.",
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "UP or RIGHT (choose one)\nIf UP is chosen:\nSTOP (since moving up would take us outside the grid at [7,1])\nIf RIGHT is chosen:\nRIGHT (valid move within the grid boundaries)",
+                    "RIGHT",
+                    "UP or RIGHT (choose one)\nIf UP is chosen:\nSTOP\nIf RIGHT is chosen:\nSTOP\n(Note that moving either direction would result in going out of bounds, hence STOP.)",
+                    "UP or RIGHT (choose one)\nIf UP is chosen:\nSTOP\nIf RIGHT is chosen:\nSTOP\n(Note that moving either direction would result in going out of bounds, hence STOP.)"
+                ],
+                [
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        1,
+                        0
+                    ],
+                    [
+                        2,
+                        0
+                    ],
+                    [
+                        3,
+                        0
+                    ],
+                    [
+                        4,
+                        0
+                    ],
+                    [
+                        4,
+                        0
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        5,
+                        1
+                    ],
+                    [
+                        6,
+                        1
+                    ],
+                    [
+                        7,
+                        1
+                    ],
+                    [
+                        8,
+                        1
+                    ],
+                    [
+                        8,
+                        1
+                    ],
+                    [
+                        9,
+                        1
+                    ],
+                    [
+                        9,
+                        1
+                    ]
+                ]
+            ],
+            "R_4": [
+                [
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "UP or RIGHT (choose one)\nIf UP is chosen: [4,1]\nIf RIGHT is chosen: [5,0]\nIf either choice leads to going out of bounds at step 5 in x-direction for example ([20,0]), then reply with STOP.",
+                    "UP",
+                    "UP or RIGHT (choose one)\nIf UP is chosen: [4, 2]\nIf RIGHT is chosen: [5, 1]\nIf either choice leads to going out of bounds at step 7, reply with STOP. For example, if choosing DOWN from [4, 1], it would be outside the grid and should result in STOP.",
+                    "UP or RIGHT (choose one)\nIf UP is chosen: [4, 2]\nIf RIGHT is chosen: [5, 1]\nIf either choice leads to going out of bounds at step 8, reply with STOP. For example, if choosing DOWN from [4, 1], it would be outside the grid and should result in STOP.",
+                    "UP or RIGHT (choose one)\nIf UP: [3,1]\nIf RIGHT: [4,2]\n(Note that if either choice would result in going out of bounds at step 8 on a grid centered at [0,0], you should reply with STOP.)",
+                    "UP or RIGHT (choose one)\nIf UP is chosen: [4, 2]\nIf RIGHT is chosen: [5, 1]\nIf either choice leads to going out of bounds at step 9, reply with STOP. For example, if choosing DOWN would result in a negative y-coordinate (step below the grid), then you should respond with STOP.",
+                    "UP or RIGHT (choose one)\nIf UP is chosen: [4, 2]\nIf RIGHT is chosen: [5, 1]\nIf either choice leads to going out of bounds at step 10+X, then reply with STOP. For example, if choosing UP again would result in a position outside the grid boundaries (either x < -20 or y > 20), you should respond: STOP",
+                    "UP or RIGHT (choose one)\nIf UP: [3,1]\nIf RIGHT: [4,2]\nSTOP if either position is outside of grid bounds (-20 <= x,y <= 19). For example, STOP for [-20, y], where 'y' > 19.",
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "UP or RIGHT (choose one)\nIf UP is chosen:\nSTOP (since moving up would take us outside the grid at [7,1])\nIf RIGHT is chosen:\nRIGHT (valid move within the grid boundaries)",
+                    "RIGHT",
+                    "UP or RIGHT (choose one)\nIf UP is chosen:\nSTOP\nIf RIGHT is chosen:\nSTOP\n(Note that moving either direction would result in going out of bounds, hence STOP.)",
+                    "UP or RIGHT (choose one)\nIf UP is chosen:\nSTOP\nIf RIGHT is chosen:\nSTOP\n(Note that moving either direction would result in going out of bounds, hence STOP.)"
+                ],
+                [
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        1,
+                        0
+                    ],
+                    [
+                        2,
+                        0
+                    ],
+                    [
+                        3,
+                        0
+                    ],
+                    [
+                        4,
+                        0
+                    ],
+                    [
+                        4,
+                        0
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        5,
+                        1
+                    ],
+                    [
+                        6,
+                        1
+                    ],
+                    [
+                        7,
+                        1
+                    ],
+                    [
+                        8,
+                        1
+                    ],
+                    [
+                        8,
+                        1
+                    ],
+                    [
+                        9,
+                        1
+                    ],
+                    [
+                        9,
+                        1
+                    ]
+                ]
+            ]
+        },
+        "TEMP_0.2": {
+            "R_0": [
+                [
+                    "RIGHT",
+                    "RIGHT",
+                    "UP or RIGHT (whichever is applicable without going outside grid bounds)",
+                    "RIGHT",
+                    "UP",
+                    "UP or RIGHT (choose one)\nIf UP is chosen: [3, 2]\nIf RIGHT is chosen: [4, 1]\n(Note that if either choice results in going out of bounds at step 5, you should reply with STOP.)",
+                    "RIGHT",
+                    "UP or RIGHT (choose one)\nIf UP, your new position would be [4, 2]. If RIGHT, your new position would be [5, 1]. Both are within bounds. Choose accordingly:\n\n(For example if you choose \"UP\", the reply will simply be):\nUP",
+                    "UP or RIGHT (choose one)\nIf UP: [3,1]\nIf RIGHT: [4,2]\n(Reply again if another move is needed within bounds; otherwise STOP.)",
+                    "UP or RIGHT (choose one)\nIf UP is chosen: [4, 2]\nIf RIGHT is chosen: [5, 1]\nIf either choice would result in going out of bounds at step 9, reply with STOP instead. For example, if choosing DOWN results in a negative y-coordinate or LEFT goes beyond the grid's left boundary (x < -20), then you should respond: STOP",
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "UP or RIGHT (choose one) if within bounds, otherwise STOP. Since [7,1] is already on the grid and moving UP would result in [-6,1], which is out of bounds, I will respond: STOP.",
+                    "UP or RIGHT (choose one)\nIf UP: [6,1]\nIf RIGHT: [7,2]\n(Reply again if another move is desired within bounds; otherwise STOP.)",
+                    "RIGHT",
+                    "UP or RIGHT (choose one)\nIf UP is chosen:\nSTOP (since moving up would take us outside the grid boundaries at [7,1])\nIf RIGHT is chosen:\nRIGHT (as it's within bounds and moves towards center of the grid)",
+                    "RIGHT",
+                    "UP or RIGHT (choose one)\nIf UP is chosen:\nSTOP\nIf RIGHT is chosen:\nSTOP\n(Note that moving either direction would result in going out of bounds, hence STOP.)",
+                    "RIGHT"
+                ],
+                [
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        1,
+                        0
+                    ],
+                    [
+                        2,
+                        0
+                    ],
+                    [
+                        2,
+                        0
+                    ],
+                    [
+                        3,
+                        0
+                    ],
+                    [
+                        3,
+                        1
+                    ],
+                    [
+                        3,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        5,
+                        1
+                    ],
+                    [
+                        6,
+                        1
+                    ],
+                    [
+                        7,
+                        1
+                    ],
+                    [
+                        7,
+                        1
+                    ],
+                    [
+                        7,
+                        1
+                    ],
+                    [
+                        8,
+                        1
+                    ],
+                    [
+                        8,
+                        1
+                    ],
+                    [
+                        9,
+                        1
+                    ],
+                    [
+                        9,
+                        1
+                    ]
+                ]
+            ],
+            "R_1": [
+                [
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "UP or RIGHT (choose one)\nIf UP is chosen and it doesn't go beyond grid limits, then:\nUP\nOtherwise if OUTSIDE_GRID(new position), respond with STOP. If you choose another direction like DOWN or LEFT that keeps within the bounds of a 20x20 grid centered at (0,0) and your current coordinates are [4,0], then:\nDOWN or RIGHT (choose one)",
+                    "UP",
+                    "UP or RIGHT (choose one)\nIf UP: [3,1]  \nIf RIGHT: [4,2]  \nSTOP if either position is outside of grid bounds (-20 <= x,y <= 20). For example, STOP for [-20, y], where |x| > 20 or (x < -20) and similarly for the Y-coordinate.",
+                    "UP or RIGHT (choose one)\nIf UP is chosen: [4, 2]\nIf RIGHT is chosen: [5, 1]\nIf either choice leads to going out of bounds (-20 < x < 20 and -20 < y < 20), then reply with STOP.",
+                    "UP or RIGHT (choose one)\nIf UP is chosen: [4, 2]\nIf RIGHT is chosen: [5, 1]\nIf either choice would result in going out of bounds (-20 < x < 20 and -20 < y < 20), then reply with STOP.",
+                    "UP or RIGHT (choose one)\nIf UP: [3,1]  \nIf RIGHT: [4,2]   \nSTOP if either position is outside of grid bounds (-20 <= x,y <= 20). For example, STOP for [-20,1].",
+                    "UP or RIGHT (choose one)\nIf UP is chosen: [4, 2]\nIf RIGHT is chosen: [5, 1]\nIf either choice leads to going out of bounds at step 10+X, then reply with STOP. For example, if choosing RIGHT again would result in a position beyond the grid's boundary (either x > 20 or y < -20), you should respond: STOP",
+                    "UP or RIGHT (choose one)\nIf UP: [3,1]\nIf RIGHT: [4,2]\nSTOP if either position is outside of grid bounds (-20 <= x,y <= 20). For example, STOP for [-21,1].",
+                    "UP or RIGHT (choose one)\nIf UP: [3,1]\nIf RIGHT: [4,2]\nSTOP if either position is outside of grid bounds (-20 <= x,y <= 20). For example, STOP for [-21,1].",
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "UP or RIGHT (choose one)\nIf UP is chosen:\nSTOP (since moving up would take us outside the grid boundaries at [6,1])\n\nAlternatively, if RIGHT is chosen correctly without reaching an edge of the grid:\nRIGHT (continue to move right within the bounds of the 20x20 grid)",
+                    "UP or RIGHT (choose one)\nIf UP: [6,1]\nIf RIGHT: [7,2]\nSTOP if either position is outside of grid bounds (-20 <= x,y <= 20). For example, STOP for [-20,1].",
+                    "RIGHT",
+                    "UP or RIGHT (choose one)\nIf UP is chosen and it would result in going beyond grid boundaries, then:\nSTOP\nOtherwise if within bounds after moving up to [7,1], you can choose again as needed without STOP unless another move takes the position out of bounds."
+                ],
+                [
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        1,
+                        0
+                    ],
+                    [
+                        2,
+                        0
+                    ],
+                    [
+                        3,
+                        0
+                    ],
+                    [
+                        4,
+                        0
+                    ],
+                    [
+                        4,
+                        0
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        5,
+                        1
+                    ],
+                    [
+                        6,
+                        1
+                    ],
+                    [
+                        7,
+                        1
+                    ],
+                    [
+                        7,
+                        1
+                    ],
+                    [
+                        7,
+                        1
+                    ],
+                    [
+                        8,
+                        1
+                    ]
+                ]
+            ],
+            "R_2": [
+                [
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "UP or RIGHT (choose one)\nIf UP is chosen: [4, 0]\nIf RIGHT is chosen: [3, 1]\nIf either choice results in going out of bounds at step 4 or x-coordinate change to -21 respectively, reply STOP.",
+                    "UP",
+                    "RIGHT",
+                    "UP or RIGHT (choose one)\nIf UP is chosen and it would take to position [4, 2], which still lies within bounds:\nUP\nOtherwise if moving up takes you outside of grid boundaries at [-19, 2]:\nSTOP\nSimilarly for the other directions.",
+                    "UP or RIGHT (choose one)\nIf UP is chosen: [4, 2]\nIf RIGHT is chosen: [5, 1]\n(Note that if either choice would result in going out of bounds at step 8, then you should reply with STOP.)",
+                    "UP or RIGHT (choose one)\nIf UP is chosen: [4, 2]\nIf RIGHT is chosen: [5, 1]\n(Note that if either choice would result in going out of bounds at step 8, you should reply with STOP.)",
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "UP or RIGHT (choose one) if within bounds, otherwise STOP. Since [7,1] is already in a valid position and moving UP would result in [-6,-1], which is out of bounds, I will choose:\nRIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "UP or RIGHT (choose one)\nIf UP is chosen: [9, 2]\nIf RIGHT is chosen: [10, 1]\n(Note that if either choice would result in going out of bounds at step 15, you should reply with STOP.)",
+                    "UP or RIGHT (choose one)\nIf UP is chosen and it would result in going beyond grid boundaries, then:\nSTOP\nOtherwise if within bounds after moving up to [9, 2], continue as normal without STOP unless another move goes out of boundary. If that happens again with a new direction choice, respond with STOP.",
+                    "RIGHT",
+                    "UP or RIGHT (choose one)\nIf UP is chosen: \"STOP\" because moving up would take us to [10, 0], which is out of bounds in a grid size of 20 x 20 centered at (0,0). If RIGHT is chosen without exceeding the boundary, it's valid.",
+                    "UP or RIGHT (choose one)\nIf UP is chosen:\nSTOP (since moving up would take us to [10, 0], which is out of bounds in a grid size of 20 x 20 centered at (0,0))\nIf RIGHT is chosen:\nRIGHT (we can move right within the boundaries)"
+                ],
+                [
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        1,
+                        0
+                    ],
+                    [
+                        2,
+                        0
+                    ],
+                    [
+                        3,
+                        0
+                    ],
+                    [
+                        3,
+                        0
+                    ],
+                    [
+                        3,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        5,
+                        1
+                    ],
+                    [
+                        6,
+                        1
+                    ],
+                    [
+                        7,
+                        1
+                    ],
+                    [
+                        7,
+                        1
+                    ],
+                    [
+                        8,
+                        1
+                    ],
+                    [
+                        9,
+                        1
+                    ],
+                    [
+                        9,
+                        1
+                    ],
+                    [
+                        9,
+                        1
+                    ],
+                    [
+                        10,
+                        1
+                    ],
+                    [
+                        10,
+                        1
+                    ]
+                ]
+            ],
+            "R_3": [
+                [
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "UP or RIGHT (choose one)\nIf UP is chosen: [4,1]\nIf RIGHT is chosen: [5,0]\nIf either choice leads to an out-of-bounds position such as [-20,-20], then reply with STOP.",
+                    "UP",
+                    "UP or RIGHT (choose one)\nIf UP is chosen: [4, 2]\nIf RIGHT is chosen: [5, 1]\nIf either choice leads to going out of bounds at step 7, reply with STOP. For example, if choosing DOWN would result in a negative y-coordinate (step = -3), then you should respond with STOP.",
+                    "UP or RIGHT (choose one)\nIf UP: [3,1]\nIf RIGHT: [4,2]\nSTOP if either position is outside of grid bounds (-10 < x < 10 and -10 < y < 10). For example, STOP for [-10,-9].",
+                    "UP or RIGHT (choose one)\nIf UP: [3,1]  \nIf RIGHT: [4,2]  \nSTOP if either position is outside of grid bounds (-10 <= x,y <= 9)",
+                    "UP or RIGHT (choose one)\nIf UP: [3,1]\nIf RIGHT: [4,2]\n(Note that if either choice would result in going out of bounds at step 9, you should reply with STOP.)",
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "UP or RIGHT (choose one)\nIf UP is chosen and it would take to position [8, 2], which is within bounds:\nUp\nElse if OUT_OF_BOUNDS then STOP\nIf RIGHT is chosen and it would take to position [9, 1], which is within bounds:\nRight\nElse if OUT_OF_BOUNDS then STOP",
+                    "RIGHT",
+                    "UP or RIGHT (choose one)\nIf UP is chosen:\nSTOP (since moving up would take us to [9, 0], which is out of bounds in a grid size of 20 x 20 centered at (0,0))\n\nIf RIGHT is chosen:\nRIGHT (we move within the boundaries)",
+                    "UP or RIGHT (choose one)\nIf UP is chosen:\nSTOP (since moving up would take us to [9, 0], which is out of bounds in a grid size of 20 x 20 centered at (0,0))\nIf RIGHT is chosen:\nRIGHT (we move within the boundaries from [9,1] to [10,1])",
+                    "UP or RIGHT (choose one)\nIf UP is chosen and it would take to position [9, 2], then continue:\nUP\nSTOP if moving up takes you beyond y=10 as that's outside of grid bounds at size 20x20.",
+                    "RIGHT"
+                ],
+                [
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        1,
+                        0
+                    ],
+                    [
+                        2,
+                        0
+                    ],
+                    [
+                        3,
+                        0
+                    ],
+                    [
+                        4,
+                        0
+                    ],
+                    [
+                        4,
+                        0
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        5,
+                        1
+                    ],
+                    [
+                        6,
+                        1
+                    ],
+                    [
+                        7,
+                        1
+                    ],
+                    [
+                        8,
+                        1
+                    ],
+                    [
+                        8,
+                        1
+                    ],
+                    [
+                        9,
+                        1
+                    ],
+                    [
+                        9,
+                        1
+                    ],
+                    [
+                        9,
+                        1
+                    ],
+                    [
+                        9,
+                        1
+                    ]
+                ]
+            ],
+            "R_4": [
+                [
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "UP",
+                    "UP or RIGHT (choose one)\nIf UP is chosen: [4, 2]\nIf RIGHT is chosen: [5, 1]\nIf either choice leads to going out of bounds at step 6, reply with STOP. For example, if choosing DOWN from [4, 1], it would be off-grid and you should respond with STOP.",
+                    "UP or RIGHT (choose one)\nIf UP is chosen: [4, 2]\nIf RIGHT is chosen: [5, 1]\n(Note that if either choice would take you outside of the grid boundaries at step 6, then reply with STOP.)",
+                    "UP or RIGHT (choose one)\nIf UP is chosen: [4, 2]  \n(Note that this position still lies within bounds of a 20x20 grid centered at (0,0). If DOWN or LEFT were to be selected instead and would result in moving out of the boundaries, \"STOP\" should have been replied.)",
+                    "UP or RIGHT (choose one)\nIf UP is chosen: [4, 2]\nIf RIGHT is chosen: [5, 1]\nIf either choice leads to going out of bounds at step 9, then reply with STOP. For example, if choosing DOWN would result in a negative y-coordinate (step -3), you should respond with STOP.",
+                    "RIGHT",
+                    "UP or RIGHT (choose one)\nIf UP is chosen: [5, 2]\nIf RIGHT is chosen: [6, 1]\n(Note that if either choice results in going out of bounds at step 10, then reply with STOP.)",
+                    "RIGHT",
+                    "RIGHT",
+                    "UP or DOWN (choose one)\nIf UP: [6,1]\nIf DOWN: [8,1]\nIf LEFT: [-7,1]\nIf RIGHT: [7,2]\nSTOP if any of these moves would take you out of bounds.",
+                    "UP or RIGHT (choose one)\nIf UP is chosen and it doesn't go outside grid: [6,1]\nOtherwise if OUTSIDE_GRID then STOP",
+                    "UP or RIGHT (choose one)\nIf UP: [6,1]  \nIf RIGHT: [7,2]\n(Reply again if another move is needed within bounds.)\nIf either position goes out of grid boundaries (-20 to +20 for both x and y), reply with STOP.",
+                    "UP or RIGHT (choose one)\nIf UP is chosen:\nSTOP (if position becomes [7, 0], which is out of bounds)\nIf RIGHT is chosen:\nSTOP (if position becomes [8, 1], which is out of bounds)",
+                    "RIGHT",
+                    "UP or RIGHT (choose one)\nIf UP, then:\nSTOP\nIf RIGHT, then:\nSTOP if at edge [8,10], else continue as right movement is within bounds. If you choose either direction and it keeps you inside the grid boundaries, please specify that in your next message without using extra words or instructions.",
+                    "UP or RIGHT (choose one)\nIf UP is chosen and it would take you outside the grid, then:\nSTOP\nOtherwise if within bounds after moving up to [7,1], continue as needed without STOP unless another move takes you out of bounds. If right moves are valid options from there, choose RIGHT; otherwise reply with STOP for any invalid direction that would take you outside the grid boundaries at step 20."
+                ],
+                [
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        1,
+                        0
+                    ],
+                    [
+                        2,
+                        0
+                    ],
+                    [
+                        3,
+                        0
+                    ],
+                    [
+                        4,
+                        0
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        5,
+                        1
+                    ],
+                    [
+                        5,
+                        1
+                    ],
+                    [
+                        6,
+                        1
+                    ],
+                    [
+                        7,
+                        1
+                    ],
+                    [
+                        7,
+                        1
+                    ],
+                    [
+                        7,
+                        1
+                    ],
+                    [
+                        7,
+                        1
+                    ],
+                    [
+                        7,
+                        1
+                    ],
+                    [
+                        8,
+                        1
+                    ],
+                    [
+                        8,
+                        1
+                    ]
+                ]
+            ]
+        },
+        "TEMP_0.4": {
+            "R_0": [
+                [
+                    "UP, UP, RIGHT, RIGHT, DOWN, LEFT, UP, UP, RIGHT, STOP",
+                    "RIGHT",
+                    "RIGHT",
+                    "UP, UP, UP (This would take your position to [2,3]) or RIGHT if staying within bounds is preferred for a different direction change. If either of these moves takes you out of bounds at step 4 ([5,0] with three steps up), then reply STOP instead.",
+                    "UP",
+                    "UP or RIGHT (choose one)\nIf UP, your new position would be [1, 1]. If this move is within bounds: continue to choose a direction; if it's out of bounds, respond \"STOP\".\nIf RIGHT, your new position would be [2, 2]. Similarly, check for boundary conditions.",
+                    "RIGHT",
+                    "RIGHT",
+                    "UP or RIGHT (whichever is valid within bounds)",
+                    "UP or RIGHT (choose either)  \nor if UP would take me outside:\nSTOP",
+                    "UP or RIGHT (choose one)\nIf UP, then: [3,1]\nIf RIGHT, then: [4,2]\n(Note that if either move would take you outside of a grid size of -20 x -20, respond with STOP.)",
+                    "UP or RIGHT (choose one)\nIf UP is chosen and it doesn't go beyond grid boundaries: [4, 2]\nOtherwise if OUT_OF_BOUNDS then STOP\nIf RIGHT is chosen and it doesn't go beyond grid boundaries: [5, 1]\nOtherwise if OUT_OF_BOUNDS then STOP",
+                    "UP or RIGHT (choose one)\nIf UP would result in going beyond grid boundaries, then:\nSTOP",
+                    "UP or RIGHT (choose one, but ensure it does not lead outside the grid)",
+                    "UP or RIGHT (whichever is valid within bounds)",
+                    "UP or RIGHT (choose one)\nIf UP: [3,1]\nIf RIGHT: [4,2]\nSTOP if either position is outside of grid bounds (-10 to 9 for both x and y). For example, moving up from [4,1] would result in [-6,1], which is out of the grid. So STOP should be used instead.",
+                    "UP or RIGHT (choose one)\nIf UP: [3,1]\nIf RIGHT: [4,2]\nIf either choice leads to an index outside of grid bounds (-20 <= x,y <= 19), then reply with STOP. For example, if choosing UP again would result in position [-1,1], the response should be STOP.",
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT"
+                ],
+                [
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        1,
+                        0
+                    ],
+                    [
+                        2,
+                        0
+                    ],
+                    [
+                        2,
+                        0
+                    ],
+                    [
+                        2,
+                        1
+                    ],
+                    [
+                        2,
+                        1
+                    ],
+                    [
+                        3,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        5,
+                        1
+                    ],
+                    [
+                        6,
+                        1
+                    ]
+                ]
+            ],
+            "R_1": [
+                [
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "UP or RIGHT (any valid move within bounds)",
+                    "UP",
+                    "UP or RIGHT (choose one)\nIf choosing UP, your new position would be [3, 2]. If you choose RIGHT, it will go beyond the grid boundary at step 5 and thus should respond STOP. In this case:\nSTOP",
+                    "UP",
+                    "RIGHT",
+                    "RIGHT, RIGHT, UP, UP, UP, UP, LEFT (STOP) if at position [7,6] or similar movement that would go out of bounds based on your current step and grid size. Assuming each move is a unit distance: starting at [4,2], moving right four times to reach [8,2], then up five times reaches the edge ([8,7]), which is outside the 0-19 range in both dimensions, so STOP would be appropriate here.",
+                    "UP, UP, RIGHT, RIGHT, UP, UP, LEFT, DOWN, UP, RIGHT",
+                    "UP or DOWN, RIGHT or LEFT (depending on desired movement)\nIf moving UP/DOWN would result in a position outside of [-10, 10] for either coordinate: STOP\nIf moving RIGHT/LEFT would result in a position greater than 20 or less than -20 when considering the center at [0,0]: STOP",
+                    "RIGHT",
+                    "RIGHT",
+                    "UP or RIGHT (choose one)\nIf UP is chosen: [7, 2]\nIf RIGHT is chosen: [6, 3]\n(Note that if either move results in going out of bounds at step 14, then you should reply with STOP.)",
+                    "UP or RIGHT (choose one)  \nIf UP is chosen: [7, 2]  \nIf RIGHT is chosen: [6, 3]  \nSTOP if either move goes beyond grid boundaries at step = 14+X where X > 0.",
+                    "UP or DOWN (choose one)\nIf UP: [5, 2]\nIf DOWN: [7, 2]\nIf LEFT: [6, 1]\nIf RIGHT: [6, 3]\nIf any of the above moves would take you outside the grid boundaries [(0-20), (0-20)], then reply with STOP.",
+                    "RIGHT",
+                    "RIGHT",
+                    "UP or RIGHT (either choice is valid as long as it doesn't lead outside the grid)",
+                    "RIGHT"
+                ],
+                [
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        1,
+                        0
+                    ],
+                    [
+                        2,
+                        0
+                    ],
+                    [
+                        3,
+                        0
+                    ],
+                    [
+                        3,
+                        0
+                    ],
+                    [
+                        3,
+                        1
+                    ],
+                    [
+                        3,
+                        1
+                    ],
+                    [
+                        3,
+                        2
+                    ],
+                    [
+                        4,
+                        2
+                    ],
+                    [
+                        4,
+                        2
+                    ],
+                    [
+                        4,
+                        2
+                    ],
+                    [
+                        4,
+                        2
+                    ],
+                    [
+                        5,
+                        2
+                    ],
+                    [
+                        6,
+                        2
+                    ],
+                    [
+                        6,
+                        2
+                    ],
+                    [
+                        6,
+                        2
+                    ],
+                    [
+                        6,
+                        2
+                    ],
+                    [
+                        7,
+                        2
+                    ],
+                    [
+                        8,
+                        2
+                    ],
+                    [
+                        8,
+                        2
+                    ]
+                ]
+            ],
+            "R_2": [
+                [
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "UP",
+                    "UP",
+                    "UP or RIGHT (choose one)\nIf UP is chosen: [4,3]\nIf RIGHT is chosen: [5,2]\nSTOP if either move would exceed grid bounds at step 7. For example, moving DOWN to [-1,2] or LEFT to [3,-1].",
+                    "UP or RIGHT (choose one)\nIf UP is chosen: [4,3]\nIf RIGHT is chosen: [5,2]\n(Note that if either move would take you outside of the grid boundaries at step 7 with position [4,2], then reply STOP.)",
+                    "UP, UP, RIGHT, RIGHT, RIGHT, UP, UP, UP (STOP if this exceeds grid bounds)",
+                    "RIGHT",
+                    "UP or RIGHT (choose one)\nIf UP: [5,3]\nIf RIGHT: [6,2]\n(Note that if either move would take you outside of a grid size -20 x -20 centered at (0,0), then the reply should be STOP.)",
+                    "UP or RIGHT (choose one)",
+                    "RIGHT",
+                    "UP, UP, RIGHT, RIGHT, RIGHT, UP, UP, UP, LEFT, DOWN",
+                    "UP or RIGHT (choose one)\nIf UP, your new position is [6, 3]. If RIGHT, your new position is [7, 2]. Both are within bounds.\nReply: UP/RIGHT (whichever direction you choose next). Remember to reply only with the movement command if it's valid or STOP otherwise.",
+                    "RIGHT",
+                    "RIGHT",
+                    "UP or DOWN (depending on your desired movement) unless it would take you outside a grid boundary, then respond with \"STOP\". For example: UP if moving upwards within bounds; otherwise STOP. Similarly for RIGHT and LEFT movements. Since I am not capable of physical actions, please choose the direction based on these guidelines.",
+                    "RIGHT",
+                    "RIGHT"
+                ],
+                [
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        1,
+                        0
+                    ],
+                    [
+                        2,
+                        0
+                    ],
+                    [
+                        3,
+                        0
+                    ],
+                    [
+                        4,
+                        0
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        2
+                    ],
+                    [
+                        4,
+                        2
+                    ],
+                    [
+                        4,
+                        2
+                    ],
+                    [
+                        4,
+                        2
+                    ],
+                    [
+                        5,
+                        2
+                    ],
+                    [
+                        5,
+                        2
+                    ],
+                    [
+                        5,
+                        2
+                    ],
+                    [
+                        6,
+                        2
+                    ],
+                    [
+                        6,
+                        2
+                    ],
+                    [
+                        6,
+                        2
+                    ],
+                    [
+                        7,
+                        2
+                    ],
+                    [
+                        8,
+                        2
+                    ],
+                    [
+                        8,
+                        2
+                    ],
+                    [
+                        9,
+                        2
+                    ]
+                ]
+            ],
+            "R_3": [
+                [
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "UP or RIGHT (since moving UP would take me outside the grid, I'll move to the right)",
+                    "UP or RIGHT (choose one)\nIf UP is chosen, new position would be [3,1]. If this move stays within bounds:\n        -> continue to next step by choosing another direction like DOWN or LEFT.\nIf OUTSIDE_GRID in either case reply with STOP",
+                    "RIGHT",
+                    "UP or RIGHT (choose one)\nIf UP is chosen and it doesn't go beyond grid limits, continue:\nUP\nOtherwise if OUTSIDE_GRID occurs due to choosing either direction that exceeds bounds of a 20x20 centered at [4,0], reply with STOP.",
+                    "UP or RIGHT (either choice is valid as long as it doesn't lead outside the grid)",
+                    "UP or RIGHT (whichever is valid within bounds)",
+                    "UP or RIGHT (depending on which way is valid within grid bounds)",
+                    "UP or RIGHT (choose one)\nIf UP is chosen: [4,1]\nIf RIGHT is chosen: [5,0]\n(Note that if either choice results in moving outside of the grid boundaries at step 10, you should reply with STOP.)",
+                    "RIGHT",
+                    "RIGHT",
+                    "UP, UP, RIGHT, RIGHT, RIGHT, UP, UP, UP, UP, UP, LEFT, DOWN",
+                    "UP or RIGHT (choose one)\nIf UP: [6,1]\nIf RIGHT: [7,0]\n(or \"STOP\" if either move is out of bounds)",
+                    "RIGHT",
+                    "UP or RIGHT (choose one)\nIf UP is chosen: [7,1]\nIf RIGHT is chosen: [8,0]\n(Note: If either choice would result in moving out of bounds at step 16, reply with STOP.)",
+                    "UP or RIGHT (choose one)\nIf UP is chosen:\nSTOP\nIf RIGHT is chosen:\nSTOP\n(Note that moving either direction would take you out of bounds in a grid centered at [0,0] with dimensions 20x20.)",
+                    "RIGHT",
+                    "RIGHT"
+                ],
+                [
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        1,
+                        0
+                    ],
+                    [
+                        2,
+                        0
+                    ],
+                    [
+                        3,
+                        0
+                    ],
+                    [
+                        3,
+                        0
+                    ],
+                    [
+                        3,
+                        0
+                    ],
+                    [
+                        4,
+                        0
+                    ],
+                    [
+                        4,
+                        0
+                    ],
+                    [
+                        4,
+                        0
+                    ],
+                    [
+                        4,
+                        0
+                    ],
+                    [
+                        4,
+                        0
+                    ],
+                    [
+                        4,
+                        0
+                    ],
+                    [
+                        5,
+                        0
+                    ],
+                    [
+                        6,
+                        0
+                    ],
+                    [
+                        6,
+                        0
+                    ],
+                    [
+                        6,
+                        0
+                    ],
+                    [
+                        7,
+                        0
+                    ],
+                    [
+                        7,
+                        0
+                    ],
+                    [
+                        7,
+                        0
+                    ],
+                    [
+                        8,
+                        0
+                    ]
+                ]
+            ],
+            "R_4": [
+                [
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "UP, UP, UP (This would take your position to [3, 3], still within bounds)",
+                    "RIGHT",
+                    "UP",
+                    "UP or RIGHT (choose either one as long as it doesn't lead outside the grid)",
+                    "RIGHT",
+                    "UP or RIGHT (choose one)\nIf UP: [5, 2]\nIf RIGHT: [6, 1]\nSTOP if either position is outside of grid bounds (-20 <= x,y <= 20). For example, STOP for [-20, -1].",
+                    "UP or RIGHT (choose one)\nIf UP is chosen: [5, 2]\nIf RIGHT is chosen: [6, 1]\n(Note: If either choice results in going out of bounds at step 9, then reply with STOP.)",
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "UP or RIGHT (choose one)\nIf UP is chosen and it would take to a position outside grid: \"STOP\"\nIf RIGHT is chosen and it would take to a position outside grid: \"STOP\"\nOtherwise, if within bounds choose direction without needing STOP.",
+                    "UP or RIGHT (choose one)\nIf UP, then: [8,1]  \n(Note that this is within bounds and hence valid.)\nOtherwise if you choose a direction leading out of grid boundaries like DOWN to [-9,1], reply with STOP.",
+                    "UP or RIGHT (choose one)\nIf UP is chosen and it does not go beyond grid boundaries, then:\n            [9, 2]\nOtherwise if OUTSIDE_GRID occurs due to choosing UP, reply with STOP.\nSimilarly for the other directions based on their respective boundary checks.",
+                    "UP or RIGHT (choose one)\nIf UP is chosen:\nSTOP (since moving up would take us outside the grid boundaries at [9, -1])\n\nAlternatively, if RIGHT is chosen correctly without going out of bounds:\nRIGHT (continue in this direction as long as within bounds)",
+                    "UP or RIGHT (choose one)\nIf UP is chosen:\nSTOP\nIf RIGHT is chosen:\nSTOP\n(Note that moving either direction would result in going out of bounds for a grid centered at (0,0), hence STOP.)",
+                    "UP or RIGHT (choose one) if within bounds, otherwise STOP. If choosing UP and [9,1] is at grid boundary in y-direction: STOP. Similarly for LEFT; choose accordingly based on current position boundaries. For instance, since you're currently at x=9 which isn't the edge of a 20x20 grid (y<20), both UP and RIGHT are valid moves unless they would take your y-coordinate below zero or move you off the rightmost boundary:\n\nIf choosing UP from [9,1]: STOP. If choosing RIGHT from [9,1], it's still within bounds because x=9 is not at grid edge (x<20), so valid direction would be RIGHT."
+                ],
+                [
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        1,
+                        0
+                    ],
+                    [
+                        2,
+                        0
+                    ],
+                    [
+                        3,
+                        0
+                    ],
+                    [
+                        3,
+                        0
+                    ],
+                    [
+                        4,
+                        0
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        5,
+                        1
+                    ],
+                    [
+                        5,
+                        1
+                    ],
+                    [
+                        5,
+                        1
+                    ],
+                    [
+                        6,
+                        1
+                    ],
+                    [
+                        7,
+                        1
+                    ],
+                    [
+                        8,
+                        1
+                    ],
+                    [
+                        9,
+                        1
+                    ],
+                    [
+                        9,
+                        1
+                    ],
+                    [
+                        9,
+                        1
+                    ],
+                    [
+                        9,
+                        1
+                    ],
+                    [
+                        9,
+                        1
+                    ],
+                    [
+                        9,
+                        1
+                    ]
+                ]
+            ]
+        },
+        "TEMP_0.6": {
+            "R_0": [
+                [
+                    "UP or DOWN (choose one)\nIf UP is chosen and moves to [0,1], continue:\n        RIGHT or LEFT (choose one), if within bounds proceed; otherwise respond STOP\nFor example choosing right would be:\n        \n        RIGHT\nRemembering the grid size of 20x20 centered at origin.",
+                    "UP, UP, RIGHT, RIGHT, DOWN, LEFT, LEFT, UP, UPStep is now at [1,1]. Remaining steps: 298\n            (Note: The grid size allows for a maximum of 400 unique positions. Since the starting position was one step away from corner and only four directions are available to move next without crossing boundaries, I have provided possible directional moves while ensuring not to exceed boundary limits.)",
+                    "UP or RIGHT (either move up one step to [0,1] or right one step to [1,0]) since both are within grid bounds and do not require stopping due to boundary constraints. Let's choose UP for this example:\n\nUP",
+                    "UP or LEFT (choose either, as long as it's within bounds)",
+                    "UP, UP, UP, UP (This moves the walker to [0,4], which is within bounds)",
+                    "UP, UP, UP, UP, LEFT (assuming each step is a unit distance)",
+                    "UP, UP, UP, UP, RIGHT, RIGHT, DOWN, LEFT, LEFT (Note: This sequence of moves will take you to [4, -3], which is out of bounds for a grid sized at [-10, 9]. Therefore the correct response according to instructions would be STOP.)",
+                    "UP, UP, UP, UP, UP, UP, RIGHT, RIGHT, RIGHT, RIGHT, DOWN, LEFT, LEFT, LEFT, LEFT, STOP",
+                    "UP, UP, UP, UP, UP, UP, RIGHT, RIGHT, RIGHT, RIGHT, DOWN, LEFT, LEFT, LEFT, LEFT, STOP",
+                    "UP, UP, UP, UP, UP, UP, RIGHT, RIGHT, DOWN, LEFT, LEFT, LEFT, STOP",
+                    "UP, UP, UP, UP, UP, UP, UP, RIGHT, RIGHT, DOWN, LEFT, LEFT, LEFT, LEFT, LEFT, STOP",
+                    "UP, UP, UP, UP, UP, UP, RIGHT, RIGHT, RIGHT, RIGHT, DOWN, LEFT",
+                    "UP, UP, UP, RIGHT, RIGHT, DOWN, LEFT, UP, UP, STOP",
+                    "RIGHT",
+                    "UP or RIGHT (whichever is applicable within grid boundaries)\n\nNote: Since I am an AI and do not have a physical form, my movements are simulated based on given instructions. In this case, moving UP will change my position to [0,1], which remains inside the bounds of the 20x20 grid centered at (0,0). If RIGHT is chosen instead, it would also be within bounds and move me to [1,1]. Both directions are valid moves from point [1,0] without going outside the specified boundaries.",
+                    "UP",
+                    "UP",
+                    "RIGHT, RIGHT, UP, UP, UP, LEFT, LEFT, DOWN, RIGHT, RIGHT, UP, UP, UP, LEFT, LEFT, LEFT, DOWN, STOP",
+                    "UP or RIGHT (depending on which way is valid within bounds)",
+                    "UP or RIGHT (choose one) if within bounds, otherwise respond \"STOP\""
+                ],
+                [
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        1,
+                        0
+                    ],
+                    [
+                        1,
+                        0
+                    ],
+                    [
+                        1,
+                        1
+                    ],
+                    [
+                        1,
+                        2
+                    ],
+                    [
+                        1,
+                        2
+                    ],
+                    [
+                        1,
+                        2
+                    ]
+                ]
+            ],
+            "R_1": [
+                [
+                    "UP or RIGHT (as long as it stays within bounds) OR STOP if boundary is reached. For instance, \"RIGHT\" would be a valid move for now since you are at [0,0] and moving right to [1,0]. If I were the AI choosing my next step without constraints on randomness or strategy:\n\nUP",
+                    "UP, UP, RIGHT, RIGHT, DOWN, LEFT, UP, UP, UPStep=3 (Out of bounds) -STOP```plaintext\nHere's a simulation based on your instructions:\n\n1. Up twice to [0,2]\n2. Right twice to [2,2]\n3. Down once to [2,1]\n4. Left once to [1,1] (This is within bounds)\n5. Try moving up again but it would take you out of the grid: \n   - New position after UP move at step=6 would be [1,0], which is outside the boundaries (-20 <= x <= 20 and -20 <= y <= 20). So I'll stop here.\n\n```plaintext\nUP, UP, RIGHT, RIGHT, DOWN, LEFT, UP, UP (STOP)",
+                    "RIGHT",
+                    "RIGHT",
+                    "UP or RIGHT (choose one) if within bounds, otherwise: STOP",
+                    "UP",
+                    "RIGHT",
+                    "UP or RIGHT (choose one)\nIf UP is chosen: [3, 2]\nIf RIGHT is chosen: [4, 1]\nIf either choice goes out of bounds (-20 < x < 20 and -20 < y < 20), reply with STOP.",
+                    "UP or RIGHT (whichever is valid within grid bounds)",
+                    "UP or RIGHT (choose one, but remember to stay within bounds)\nIf chosen UP: [3, 2]\nIf chosen RIGHT: [4, 1]\nRemember if either move would take you outside of grid boundaries at step 9 ([-20,-20] <= position <= [20,20]), respond with STOP.",
+                    "RIGHT",
+                    "UP or RIGHT (choose one) if within bounds, otherwise STOP. Since [4,1] is inside a 20x20 grid centered at (0,0), both UP and RIGHT are valid moves to stay in-bounds. I'll choose:\n\nUP",
+                    "UP or RIGHT (choose one)\nIf UP: [3,1]  \nIf RIGHT: [4,2]    \n(Note that if either choice results in going out of bounds at step=13, then reply with STOP.)",
+                    "RIGHT",
+                    "RIGHT",
+                    "UP or RIGHT (either one is acceptable as they both keep within bounds)",
+                    "UP",
+                    "UP or RIGHT (choose one)\nIf UP is chosen: [6,3]\nIf RIGHT is chosen: [7,2]\nSTOP if either choice would exceed grid boundaries at step 18+X where X=(abs(current_y-new_y)+abs(current_x-new_x))/2.",
+                    "RIGHT",
+                    "UP or RIGHT (choose one)\nIf UP, then [6, 2] which is still within bounds; if DOWN/LEFT would put you out of bounds:\nSTOP"
+                ],
+                [
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        1,
+                        0
+                    ],
+                    [
+                        2,
+                        0
+                    ],
+                    [
+                        2,
+                        0
+                    ],
+                    [
+                        2,
+                        1
+                    ],
+                    [
+                        3,
+                        1
+                    ],
+                    [
+                        3,
+                        1
+                    ],
+                    [
+                        3,
+                        1
+                    ],
+                    [
+                        3,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        5,
+                        1
+                    ],
+                    [
+                        6,
+                        1
+                    ],
+                    [
+                        6,
+                        1
+                    ],
+                    [
+                        6,
+                        2
+                    ],
+                    [
+                        6,
+                        2
+                    ],
+                    [
+                        7,
+                        2
+                    ]
+                ]
+            ],
+            "R_2": [
+                [
+                    "RIGHT\n\n(Assuming I am moving towards positive X-axis within grid boundaries)",
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT, RIGHT, UP",
+                    "RIGHT",
+                    "UP or RIGHT (whichever is within bounds) OR STOP if either UP to [4, 0] or RIGHT to [3, 1] would go out of bounds",
+                    "UP",
+                    "RIGHT",
+                    "UP or RIGHT (since moving UP to [3,1] and RIGHT to [5,1] are within bounds)\n\n(Note: Both directions would be valid as they keep you inside the grid boundaries.)",
+                    "RIGHT",
+                    "UP or RIGHT (choose one)\nIf UP: [4,1]  \nIf RIGHT: [5,2]   \nSTOP if either position is outside of grid bounds (-10 <= x,y <= 9). For example, choosing DOWN from [5,1], you would land at [-5,1]. This falls out of the specified range. Similarly for any negative X-coordinate or Y-coordinate beyond +/-10 after moving UP/DOWN on a grid centered around (0,0) with dimensions 20x20.",
+                    "RIGHT",
+                    "UP or RIGHT (choose one)\nIf UP is chosen:\nSTOP (since moving up would take us beyond the grid boundary at [5,1])\n\nOr if RIGHT is chosen correctly without exceeding bounds:\nRIGHT (if within boundaries)\nOR\nSTOP (if it takes you out of bounds)",
+                    "RIGHT",
+                    "RIGHT",
+                    "UP or RIGHT (whichever is valid within grid bounds)",
+                    "RIGHT",
+                    "UP or RIGHT (choose one)\nIf either choice results in going beyond grid limits, respond:\nSTOP",
+                    "UP or RIGHT (whichever is applicable, assuming no boundary constraints)",
+                    "UP"
+                ],
+                [
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        1,
+                        0
+                    ],
+                    [
+                        2,
+                        0
+                    ],
+                    [
+                        2,
+                        0
+                    ],
+                    [
+                        3,
+                        0
+                    ],
+                    [
+                        3,
+                        0
+                    ],
+                    [
+                        3,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        5,
+                        1
+                    ],
+                    [
+                        5,
+                        1
+                    ],
+                    [
+                        6,
+                        1
+                    ],
+                    [
+                        6,
+                        1
+                    ],
+                    [
+                        7,
+                        1
+                    ],
+                    [
+                        8,
+                        1
+                    ],
+                    [
+                        8,
+                        1
+                    ],
+                    [
+                        9,
+                        1
+                    ],
+                    [
+                        9,
+                        1
+                    ],
+                    [
+                        9,
+                        1
+                    ]
+                ]
+            ],
+            "R_3": [
+                [
+                    "RIGHT\n\nREPLY 1: UP\n              IMPORTANT NOTE: If your current position is [0, 0], moving 'UP' would take you outside of a standard Cartesian grid (as it implies increasing y-coordinate). Therefore, the correct response should be STOP to indicate that such an action cannot occur within the given constraints.",
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "UP",
+                    "UP, UP, UP, UP, RIGHT",
+                    "UP, UP, UP, UP, UP, RIGHT, RIGHT, DOWN, LEFT, LEFT\n\nNote: This sequence of moves will take you to position [7, -4], which is outside the specified grid size (20x20). Therefore, in a real scenario where adhering strictly to instructions matters and no illegal move should be made, I would reply with \"STOP\" immediately after reaching or attempting an invalid coordinate. However, as per your request for movement sequence without checks:\n\nUP, UP, UP, UP, UP, RIGHT, RIGHT (invalid) - STOP",
+                    "UP or RIGHT (choose one, but ensure it does not lead to going outside grid bounds)",
+                    "UP or RIGHT (choose one)\nIf UP: [3,1]\nIf RIGHT: [4,2]\nSTOP if either choice exceeds grid boundaries ([-20,-20] to [20,20])",
+                    "UP or DOWN, RIGHT or LEFT (choose one based on your desired movement)\nIf choosing UP and it leads to position [-3,-1], then:\nSTOP\nOtherwise if within bounds choose either direction as instructed without additional text. For example, \"RIGHT\" would be a valid response assuming the move stays in-bounds.",
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "UP or RIGHT (whichever is valid within grid bounds)",
+                    "RIGHT",
+                    "UP or RIGHT (since moving UP would take us to [9, 0] which is within bounds and RIGHT leads to [10, 1]) OR if constrained only by directionality: STOP (as there are multiple valid moves)",
+                    "UP or RIGHT (choose one)\nIf UP is chosen:\nSTOP (since moving up would take us outside the grid boundaries at [8,1])\n\n(Note that if LEFT was chosen instead of UP in this case, it would be a valid move within the bounds.)",
+                    "RIGHT"
+                ],
+                [
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        1,
+                        0
+                    ],
+                    [
+                        2,
+                        0
+                    ],
+                    [
+                        3,
+                        0
+                    ],
+                    [
+                        4,
+                        0
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        5,
+                        1
+                    ],
+                    [
+                        6,
+                        1
+                    ],
+                    [
+                        7,
+                        1
+                    ],
+                    [
+                        8,
+                        1
+                    ],
+                    [
+                        8,
+                        1
+                    ],
+                    [
+                        9,
+                        1
+                    ],
+                    [
+                        9,
+                        1
+                    ],
+                    [
+                        9,
+                        1
+                    ]
+                ]
+            ],
+            "R_4": [
+                [
+                    "RIGHT",
+                    "RIGHT",
+                    "UP or RIGHT (choose one)\nIf UP is chosen, new position would be [1, 0] which stays within grid bounds. If RIGHT is chosen, new position would also be [2, 1], still within grid bounds. STOP does not apply here as both options stay in-bounds.",
+                    "UP",
+                    "RIGHT",
+                    "UP or RIGHT (choose one)\nIf UP: [4,1]\nIf RIGHT: [3,2]\n(Note that if either of these moves take you outside the grid boundaries (-20 <= x,y <= 20), then reply with STOP.)",
+                    "RIGHT",
+                    "UP or RIGHT (choose one)\nIf choosing UP and it would result in going beyond row index, then:\nSTOP",
+                    "UP or RIGHT (choose one, as long as it's within bounds)\nIf UP is chosen: [4, 2]\nIf RIGHT is chosen: [5, 1]\n(Note that STOP would be appropriate if either choice resulted in a position outside the grid boundaries.)",
+                    "RIGHT",
+                    "RIGHT",
+                    "UP or RIGHT (depending on which way is valid within bounds) or STOP if neither direction keeps in-bounds. Without specific grid boundaries, I'll assume standard Cartesian coordinates: moving UP would change position to [6,2], and RIGHT to [7,1]. If either of these positions are outside the 0 <= x < 20 and 0 <= y < 20 bounds, STOP is appropriate. In this case, both directions keep within boundaries so you can choose:\nUP or RIGHT",
+                    "RIGHT",
+                    "UP, UP, RIGHT",
+                    "UP or RIGHT (whichever is valid within bounds) or STOP if either would exceed grid limits. For example, given current position [7,1]: UP to move closer to center at step = 0; however in this case: \nSTOP since moving up will take us out of the top boundary which has a limit before y=20 (at index -1). Similarly RIGHT would exceed x-boundaries as well.",
+                    "RIGHT",
+                    "UP or RIGHT (choose one, whichever is valid to stay within bounds)",
+                    "RIGHT",
+                    "UP or RIGHT (choose one)\nIf UP, then: STOP (because moving up would take us outside the grid at position [8,1])  \nIf RIGHT, continue to step without stopping as it remains within bounds ([9,2]).",
+                    "UP or RIGHT (choose one, as long as it keeps within bounds)  \nIf UP: [8,1]   \nIf RIGHT: [9,2]    \n(Note that if you choose STOP here and your position is already at grid boundary like in this case of choosing right from the edge coordinate [9, 1], then no movement will occur.)"
+                ],
+                [
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        1,
+                        0
+                    ],
+                    [
+                        2,
+                        0
+                    ],
+                    [
+                        2,
+                        0
+                    ],
+                    [
+                        2,
+                        1
+                    ],
+                    [
+                        3,
+                        1
+                    ],
+                    [
+                        3,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        5,
+                        1
+                    ],
+                    [
+                        6,
+                        1
+                    ],
+                    [
+                        6,
+                        1
+                    ],
+                    [
+                        7,
+                        1
+                    ],
+                    [
+                        7,
+                        1
+                    ],
+                    [
+                        7,
+                        1
+                    ],
+                    [
+                        8,
+                        1
+                    ],
+                    [
+                        8,
+                        1
+                    ],
+                    [
+                        9,
+                        1
+                    ],
+                    [
+                        9,
+                        1
+                    ]
+                ]
+            ]
+        },
+        "TEMP_0.8": {
+            "R_0": [
+                [
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "UP or RIGHT (both valid moves)\n\nNote: The user can select either UP to move one step northwards, which would result in position [4,1], or RIGHT to move eastwards towards a corner at position [5,0]. Both options keep the walker within bounds of the 20x20 grid.",
+                    "UP",
+                    "UP or RIGHT (either choice is valid as long as it doesn't lead outside the grid)",
+                    "UP",
+                    "UP, UP, UP, RIGHT, RIGHT, DOWN, LEFT, LEFT (This sequence will move you closer to the top edge without going out of bounds)",
+                    "RIGHT",
+                    "UP, UP, UP, UP, UP, UP, UP, RIGHT, RIGHT, RIGHT, DOWN, DOWN, LEFT, LEFT, LEFT, STOP",
+                    "UP or DOWN (choose one)\nIf UP: [4, 2]  \n(STOP if this position is out of bounds; otherwise continue in either direction.)\nIf DOWN: [5, -1]   \n(STOP since it's out of the grid boundaries at step = 11 and coordinate [5, 2])",
+                    "RIGHT, RIGHT, UP, UP, UP, LEFT, DOWN, STOP (assuming we're moving within bounds and avoiding going out of grid)",
+                    "RIGHT",
+                    "RIGHT",
+                    "UP or RIGHT (whichever is valid within grid bounds)",
+                    "UP, UP, RIGHT, RIGHT, UP, UP, LEFT, UP, RIGHT, UP, UP, UPTOP (STOP) if it would exceed grid boundaries or simply \"U\" for one step up within bounds otherwise. Here I'll choose: UP, UP, RIGHT, RIGHT, UP, which keeps me in the range of 0 to 19 on both axes without going out-of-bounds.",
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT"
+                ],
+                [
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        1,
+                        0
+                    ],
+                    [
+                        2,
+                        0
+                    ],
+                    [
+                        3,
+                        0
+                    ],
+                    [
+                        4,
+                        0
+                    ],
+                    [
+                        4,
+                        0
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        2
+                    ],
+                    [
+                        4,
+                        2
+                    ],
+                    [
+                        5,
+                        2
+                    ],
+                    [
+                        5,
+                        2
+                    ],
+                    [
+                        5,
+                        2
+                    ],
+                    [
+                        5,
+                        2
+                    ],
+                    [
+                        6,
+                        2
+                    ],
+                    [
+                        7,
+                        2
+                    ],
+                    [
+                        7,
+                        2
+                    ],
+                    [
+                        7,
+                        2
+                    ],
+                    [
+                        8,
+                        2
+                    ],
+                    [
+                        9,
+                        2
+                    ]
+                ]
+            ],
+            "R_1": [
+                [
+                    "RIGHT",
+                    "RIGHT",
+                    "UP, UP, RIGHT, RIGHT, DOWN, LEFT, LEFT, UP, UP, UPStep out of bounds; REPLY:STOP",
+                    "UP or RIGHT (whichever is valid within bounds)",
+                    "RIGHT",
+                    "UP, UP, UP, UP, UP (This would take your position to [3,5], still within bounds)",
+                    "UP or RIGHT (choose one)\nIf either choice would result in going outside a 20x20 grid, then:\nSTOP",
+                    "RIGHT",
+                    "RIGHT\n\n(Note: Moving right to [5, 0] is within bounds.)",
+                    "UP or RIGHT (as long as it doesn't lead to going outside the grid boundaries)",
+                    "UP, UP, UP, UP, UP, UP, UP, UP, LEFT, RIGHT (stops at step 9)\nSTOP",
+                    "UP or DOWN (choose one)\nIf UP is chosen: [4,1]  \nor if DOWN is chosen: [4,-1]   \nRemember to stay within bounds of [-10, 10] for both x and y coordinates. If moving in a direction would exceed these limits, reply with STOP instead.",
+                    "UP, UP, LEFT",
+                    "UP or RIGHT (whichever is applicable, as long as it keeps within bounds)",
+                    "UP or RIGHT (choose one)  \nIf UP is chosen: [4,1]   \nRemember that if this move takes you outside of grid bounds at (-19,-20), STOP should be replied instead. If not out of bounds, continue with the next step instructions as needed.",
+                    "UP, UP, UP, UP, RIGHT, RIGHT, RIGHT, DOWN, LEFT, LEFT, LEFT\n\n(Note: The provided sequence of moves does not result in stepping outside a theoretical grid size that would be constrained by (0,0) center. However, if this is implying an actual boundary where crossing it means stopping or going out of bounds within the 20x20 array context and we consider only positive directions from [4, 0], then any further \"UP\" moves should stop at reaching y=19 to avoid exceeding grid limits. Here's a revised sequence with that in mind:\n\nUP, UP, LEFT (to move back toward the x-axis), DOWN, RIGHT, ... until [x] is within bounds or approaching 20 - max(4+up/down movement). If at any point moving up would exceed y=19 when starting from position [4,0], replace \"UP\" with STOP. The same rule applies for downward and lateral movements to stay in the grid.)\n\nAssuming standard row-major order where UP means increasing Y (and similar direction meanings), if we only need a single step change:\n\nLEFT or RIGHT",
+                    "UP or RIGHT (choose one)\nIf UP: [3, 0]\nIf RIGHT: [4, 1]\nSTOP if either move is out of bounds at step 16 in a grid size 20x20 centered at (0,0).",
+                    "RIGHT",
+                    "UP or DOWN (since moving horizontally to either side would take us outside a grid that's centered at [0,0] and sized 20x20)\n\nAssuming we want to move within bounds:\n\nUP\n\nIf UP results in going out of the grid boundaries or if there is another constraint not specified (like staying on an even row), then STOP would be appropriate. However, with no additional constraints given and aiming for a valid position inside the 20x20 centered at [0,0], moving upwards from point [5,0] to either [4,0] or [6,0] is allowed:\n\nUP",
+                    "UP, UP, UP, UP, UP, UP, UP, RIGHT, RIGHT, RIGHT, RIGHT, RIGHT, DOWN, DOWN, LEFT, LEFT, LEFT, STOP"
+                ],
+                [
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        1,
+                        0
+                    ],
+                    [
+                        2,
+                        0
+                    ],
+                    [
+                        2,
+                        0
+                    ],
+                    [
+                        2,
+                        0
+                    ],
+                    [
+                        3,
+                        0
+                    ],
+                    [
+                        3,
+                        0
+                    ],
+                    [
+                        3,
+                        0
+                    ],
+                    [
+                        4,
+                        0
+                    ],
+                    [
+                        4,
+                        0
+                    ],
+                    [
+                        4,
+                        0
+                    ],
+                    [
+                        4,
+                        0
+                    ],
+                    [
+                        4,
+                        0
+                    ],
+                    [
+                        4,
+                        0
+                    ],
+                    [
+                        4,
+                        0
+                    ],
+                    [
+                        4,
+                        0
+                    ],
+                    [
+                        4,
+                        0
+                    ],
+                    [
+                        4,
+                        0
+                    ],
+                    [
+                        5,
+                        0
+                    ],
+                    [
+                        5,
+                        0
+                    ]
+                ]
+            ],
+            "R_2": [
+                [
+                    "RIGHT",
+                    "RIGHT",
+                    "UP or RIGHT (any valid movement within bounds)",
+                    "RIGHT",
+                    "UP or RIGHT (either move is acceptable as long as it doesn't go outside the grid)",
+                    "RIGHT",
+                    "UP or RIGHT (either is valid as long as it doesn't lead outside the grid)\n\nSince I can move either UP to [4,1] or RIGHT to [5,0], both are within bounds of a 20x20 grid centered at (0,0). The new position after moving will be inside the defined area.",
+                    "RIGHT, RIGHT, UP, UP, UP, UP, LEFT",
+                    "UP",
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "UP or RIGHT (choose one, if UP would result in going beyond y-coordinate limit: [9+1, 1] = [10, 1], which is within bounds) OR STOP (if choosing either direction goes out of grid boundaries). For example: UP.",
+                    "RIGHT",
+                    "UP, UP, RIGHT, RIGHT, RIGHT, UP, UP, UP, UP, LEFT, DOWN, DOWN, LEFT, LEFT, UP, UPStep is within grid bounds and moving in various directions as requested without going out of the specified range. I've provided a series of moves to illustrate how you might navigate around your starting point while staying inside the 20x20 grid boundaries:\n\n1. Up (move North) - this takes us closer toward [9,1]\n2. Up again - now at [8,1]\n3. Right three times - reaching coordinates of [8,4] in a diagonal line to avoid going out-of-bounds by overshooting one side or the other immediately after 5th move (rightward)\n4. Continuation upwards twice more stays within bounds at [6,4] and then moving into [5,4] while still being cautious not to step off the grid edge as we near it on both axes; hence: UP, RIGHT, right again for a total of three times (now positioned at [8,7]), followed by two more up movements\n6. Finally shifting left twice and then downwards maintains our path within boundaries moving from coordinates ([5,4], now going to the bottom row) with moves: LEFT, LEFT, DOWN\n\nThe sequence above is just a representation of one possible way you could navigate through your specified grid range without stepping out. It's important in actual scenarios not only that each step remains within bounds but also considers potential obstacles or specific navigation objectives which may affect the chosen pathway dynamically.",
+                    "UP or RIGHT (either move is acceptable as long as it doesn't go beyond grid bounds)",
+                    "UP or RIGHT (choose one)\nIf UP is chosen, your new position would be [10, 2]. If DOWN or LEFT are chosen and they put you outside of the grid boundaries, then: STOP. For example, if choosing LEFT with a current step at [10, -1], it's out of bounds, so reply: STOP",
+                    "UP"
+                ],
+                [
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        1,
+                        0
+                    ],
+                    [
+                        2,
+                        0
+                    ],
+                    [
+                        2,
+                        0
+                    ],
+                    [
+                        3,
+                        0
+                    ],
+                    [
+                        3,
+                        0
+                    ],
+                    [
+                        4,
+                        0
+                    ],
+                    [
+                        4,
+                        0
+                    ],
+                    [
+                        4,
+                        0
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        5,
+                        1
+                    ],
+                    [
+                        6,
+                        1
+                    ],
+                    [
+                        7,
+                        1
+                    ],
+                    [
+                        8,
+                        1
+                    ],
+                    [
+                        9,
+                        1
+                    ],
+                    [
+                        9,
+                        1
+                    ],
+                    [
+                        10,
+                        1
+                    ],
+                    [
+                        10,
+                        1
+                    ],
+                    [
+                        10,
+                        1
+                    ],
+                    [
+                        10,
+                        1
+                    ]
+                ]
+            ],
+            "R_3": [
+                [
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT, RIGHT, UP, LEFT (if within bounds) or STOP if moving outside grid limits. Since I'm a text-based model and cannot simulate movement in real time, please provide your next direction to continue this hypothetical scenario. If it causes you to move out of the boundaries ([0, 20] x [0, 20]), then \"STOP\" should be used as per instructions.",
+                    "UP",
+                    "RIGHT, RIGHT, UP, UP, UP (4 steps to move closer to center while staying within grid bounds) or if moving right after step would exceed boundaries: STOP",
+                    "UP or RIGHT (whichever is valid) OR STOP if neither works due to grid boundary restrictions at step = 6 and position [3,1]. Without additional context on movement rules it's ambiguous whether UP would be correct since moving upwards could either increase the y-coordinate making it exceed bounds ([0,20]) or not affecting a positive x-coordinate within range. RIGHT is assumed to only change the x coordinate and stay in bounds if we are at [3,1].",
+                    "RIGHT",
+                    "UP, UP, UP, LEFT",
+                    "RIGHT",
+                    "RIGHT",
+                    "UP or RIGHT (whichever is available without going outside grid boundaries) or STOP if neither works. Assuming a standard coordinate system where [6,1] corresponds to x=6 and y=1:\n\nRIGHT\n\nIf you move one step right from position [6,1], your new coordinates would be [7,1]. This movement is within the grid boundaries of 20x20 centered at (0,0).",
+                    "UP or RIGHT (either choice would be within bounds)\n\nNote: Since moving up doesn't change your position horizontally and you are already at [6,1], both UP and RIGHT options will keep you in-bounds of a 20x20 grid centered around the origin. Moving down or left would result in leaving the specified bounds which is why STOP should be used if that were to occur.",
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "UP or RIGHT (depending on which way is unobstructed and within bounds)",
+                    "UP or RIGHT (depending on which one is valid, either UP to [10, 0] or RIGHT to [11, 1])  \nor   \nSTOP if moving in these directions would take you out of bounds: STOP\n\n(Note that since the grid size allows for movement within a range from -10 to +9 on both axes (centered at zero), UP will move towards [-10, y], and RIGHT will move towards [x+1, 1]. Thus either option is valid as long it doesn't go beyond these bounds.)",
+                    "UP or RIGHT (chosen at random, but assuming UP to avoid going negative)"
+                ],
+                [
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        1,
+                        0
+                    ],
+                    [
+                        2,
+                        0
+                    ],
+                    [
+                        3,
+                        0
+                    ],
+                    [
+                        3,
+                        0
+                    ],
+                    [
+                        3,
+                        1
+                    ],
+                    [
+                        3,
+                        1
+                    ],
+                    [
+                        3,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        5,
+                        1
+                    ],
+                    [
+                        6,
+                        1
+                    ],
+                    [
+                        6,
+                        1
+                    ],
+                    [
+                        6,
+                        1
+                    ],
+                    [
+                        7,
+                        1
+                    ],
+                    [
+                        8,
+                        1
+                    ],
+                    [
+                        9,
+                        1
+                    ],
+                    [
+                        10,
+                        1
+                    ],
+                    [
+                        10,
+                        1
+                    ],
+                    [
+                        10,
+                        1
+                    ]
+                ]
+            ],
+            "R_4": [
+                [
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "UP",
+                    "RIGHT",
+                    "UP or RIGHT (since both directions are within bounds)\n\nNote: Since I am an AI, my ability to physically move is simulated in this context based on your instructions. In a real-world scenario involving human navigation, either choice would suffice as long as it's within the grid boundaries.",
+                    "UP",
+                    "RIGHT",
+                    "RIGHT",
+                    "UP or RIGHT (choose one)\nIf UP is chosen: [7, 2]\nIf RIGHT is chosen: [6, 3]\n(Note that if either choice would result in a position outside of the grid boundaries [(0-19), (-19 to 19)], then you should reply with STOP.)",
+                    "UP or RIGHT (whichever is applicable without going outside grid)",
+                    "UP, UP, RIGHT, RIGHT, DOWN, LEFT, LEFT, UP, RIGHT",
+                    "UP or RIGHT (since moving either UP to [5, 2] or RIGHT to [6, 3] keeps you within bounds)\nOR\nDOWN or LEFT (if staying in-bounds but changing direction; DOWN leads to [-1, 2], and LEFT goes to [5, 1])",
+                    "UP or DOWN (either choice is valid as long as it keeps within bounds)",
+                    "RIGHT",
+                    "UP or RIGHT (choose one)\nIf UP is chosen: [7,3]  \n(Remember to ensure that this new position does not exceed grid boundaries.) If it would put you out of bounds say STOP instead. Otherwise continue with subsequent steps if needed by providing another direction like DOWN OR LEFT and so on while maintaining the same rules as above for each move within the 20x20 grid limits.",
+                    "UP or DOWN (either choice is valid as long as it stays within bounds)",
+                    "RIGHT, RIGHT, UP, UP, UP, UP, LEFT, LEFT\n(Note: This assumes that moving right and up will keep you within bounds; if these moves would take us out of range, STOP should be replied with instead.)",
+                    "RIGHT",
+                    "UP or DOWN, LEFT or RIGHT (choose one)\nIf chosen moves are outside bounds: STOP"
+                ],
+                [
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        1,
+                        0
+                    ],
+                    [
+                        2,
+                        0
+                    ],
+                    [
+                        3,
+                        0
+                    ],
+                    [
+                        3,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        4,
+                        2
+                    ],
+                    [
+                        5,
+                        2
+                    ],
+                    [
+                        6,
+                        2
+                    ],
+                    [
+                        6,
+                        2
+                    ],
+                    [
+                        6,
+                        2
+                    ],
+                    [
+                        6,
+                        2
+                    ],
+                    [
+                        6,
+                        2
+                    ],
+                    [
+                        6,
+                        2
+                    ],
+                    [
+                        7,
+                        2
+                    ],
+                    [
+                        7,
+                        2
+                    ],
+                    [
+                        7,
+                        2
+                    ],
+                    [
+                        7,
+                        2
+                    ],
+                    [
+                        8,
+                        2
+                    ]
+                ]
+            ]
+        },
+        "TEMP_1.0": {
+            "R_0": [
+                [
+                    "RIGHT, RIGHT, UP, LEFT, DOWN, UP, UP, LEFT, STOP",
+                    "RIGHT",
+                    "UP",
+                    "RIGHT",
+                    "UP or RIGHT (whichever is possible within bounds)\n\nSince I'm currently at position [2,1], moving UP to [2,0] would be out of bounds in a grid size limited by -10 to 9 on both axes (assuming the center at [0,0]). Therefore:\n\nRIGHT\n\nThis moves me from [2,1] to [3,1], which is within the allowed range.",
+                    "RIGHT",
+                    "UP, UP, LEFT",
+                    "UP",
+                    "UP, UP, UP, RIGHT, RIGHT, RIGHT, DOWN, LEFT (assuming each step is one unit) or STOP if going out of bounds at this point. Please check your position after these moves to confirm whether we need more directional commands. Current move sequence would be: [3,2] -> [4,3] -> [5,4] -> [6,5] -> [7,6] -> [8,5]. As the next steps are beyond bounds (outside 0-19 range on both axes), I reply with STOP.",
+                    "RIGHT",
+                    "RIGHT or UP (choose one, as long as it doesn't go beyond grid boundaries)",
+                    "RIGHT or UP (whichever is valid within bounds)\n\nNote: Since I'm text-based and cannot visualize, assuming RIGHT would change my position to [5,2] which lies within the grid boundaries of a size 20 x 20 centered at (0,0). If it were DOWN or LEFT that would take me out of bounds. Always verify with your specific scenario before proceeding in any direction from coordinates on an actual system/grid to ensure they remain valid.",
+                    "RIGHT",
+                    "UP or DOWN (depending on your desired movement) unless it results in stepping outside a grid boundary, then respond \"STOP\". For instance: UP would result in [5,3]. If this is within bounds, you can proceed with another move like RIGHT to get to [6,3], and so forth. Respond accordingly if any direction leads out of the boundaries.",
+                    "UP, UP, UP, UP, LEFT\nreply:STOP (If moving left would take us to [-5, 2], which is out of bounds) or if additional context requires a different action within grid boundaries such as RIGHT for [6, 2]. Since the coordinates are already inbound and there's no explicit instruction requiring further movement that goes beyond boundary limits:\nreply:UP (If aiming to move closer towards center at [0, 0])",
+                    "RIGHT",
+                    "UP or RIGHT (choose one)\nIf UP: [5, 2]\nIf RIGHT: [6, 3]\nRemember to stop if out of bounds; respond \"STOP\" then.",
+                    "UP, UP, LEFT",
+                    "RIGHT",
+                    "UP, UP, RIGHT"
+                ],
+                [
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        1,
+                        0
+                    ],
+                    [
+                        1,
+                        1
+                    ],
+                    [
+                        2,
+                        1
+                    ],
+                    [
+                        2,
+                        1
+                    ],
+                    [
+                        3,
+                        1
+                    ],
+                    [
+                        3,
+                        1
+                    ],
+                    [
+                        3,
+                        2
+                    ],
+                    [
+                        3,
+                        2
+                    ],
+                    [
+                        4,
+                        2
+                    ],
+                    [
+                        4,
+                        2
+                    ],
+                    [
+                        4,
+                        2
+                    ],
+                    [
+                        5,
+                        2
+                    ],
+                    [
+                        5,
+                        2
+                    ],
+                    [
+                        5,
+                        2
+                    ],
+                    [
+                        6,
+                        2
+                    ],
+                    [
+                        6,
+                        2
+                    ],
+                    [
+                        6,
+                        2
+                    ],
+                    [
+                        7,
+                        2
+                    ]
+                ]
+            ],
+            "R_1": [
+                [
+                    "RIGHT\n\n(Note: After this first move, I'm at [1, 0], which is still within the bounds of a 20x20 grid centered at (0,0).)\n\nUP\n\n(Note: Now I'm at [1, 1]. Still inside the grid.)\n\nRIGHT\n\n(Note: Current position now is [2, 1]. Within boundaries.)\n\n... and so on. The random walk continues with this pattern until a move would take me outside of the bounds (either below -10 or above +10 in either direction from center), at which point I'd reply \"STOP\".",
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT, RIGHT, UP, UP, LEFT\nIf following these instructions would result in moving outside the grid boundaries (for instance if going to [3+1, 0] results in a coordinate of [-20], we should reply with STOP.) If not:\n        RIGHT, RIGHT, UP, UP, LEFT",
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "UP or RIGHT (whichever is valid within grid boundaries)",
+                    "RIGHT",
+                    "RIGHT",
+                    "UP",
+                    "RIGHT",
+                    "UP, UP, RIGHT, RIGHT, DOWN, LEFT, UP, UPStep=13 would put me out of bounds if we are considering a zero-indexed grid starting at (0,0). Therefore:\n\nSTOP",
+                    "UP or DOWN (choose one, either move vertically)\nIf chosen UP and within bounds: [9, 2]  \nOtherwise if out of bounds say STOP directly afterward without additional text. For example, if moving up would result in a position outside the grid limits like [-1], reply with \"STOP\".",
+                    "RIGHT",
+                    "UP or RIGHT (since moving UP would take me to [10, 0] which is still within bounds) OR LEFT if I choose that over going upwards as it's equally valid and does not lead outside of grid boundaries. If choosing right leads out: STOP",
+                    "UP",
+                    "RIGHT",
+                    "UP or RIGHT (depending on your desired movement, ensuring it doesn't lead off-grid)  \nIf either UP to [11,3] or RIGHT to [12,2], otherwise STOP if moving beyond grid boundaries. For example: \"RIGHT\""
+                ],
+                [
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        1,
+                        0
+                    ],
+                    [
+                        2,
+                        0
+                    ],
+                    [
+                        3,
+                        0
+                    ],
+                    [
+                        3,
+                        0
+                    ],
+                    [
+                        4,
+                        0
+                    ],
+                    [
+                        5,
+                        0
+                    ],
+                    [
+                        6,
+                        0
+                    ],
+                    [
+                        6,
+                        0
+                    ],
+                    [
+                        7,
+                        0
+                    ],
+                    [
+                        8,
+                        0
+                    ],
+                    [
+                        8,
+                        1
+                    ],
+                    [
+                        9,
+                        1
+                    ],
+                    [
+                        9,
+                        1
+                    ],
+                    [
+                        9,
+                        1
+                    ],
+                    [
+                        10,
+                        1
+                    ],
+                    [
+                        10,
+                        1
+                    ],
+                    [
+                        10,
+                        2
+                    ],
+                    [
+                        11,
+                        2
+                    ]
+                ]
+            ],
+            "R_2": [
+                [
+                    "RIGHT, RIGHT, UP, UP, LEFT, DOWN, RIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "UP, UP, UP (This would take your position to [2,3], which is within bounds)",
+                    "UP, UP, UP, RIGHT",
+                    "UP, UP, UP, UP, UP",
+                    "UP or DOWN (whichever keeps within bounds)",
+                    "RIGHT",
+                    "UP or RIGHT (depending on desired movement, assuming boundary is at [-10,-10] to [9,9]) or \"STOP\" if either would go out of bounds. Assuming I choose UP:\n\nUP",
+                    "UP or RIGHT (choose one)\nIf UP, [3,1] would be my new position; if it's out of bounds: \"STOP\"\nIf RIGHT, [4,0] would be my new position; if it's out of bounds: \"STOP\"",
+                    "RIGHT",
+                    "UP",
+                    "RIGHT",
+                    "UP or DOWN, RIGHT or LEFT (depending on your intended movement) unless it would take you outside the grid boundaries in which case \"STOP\". For example: UP if moving upwards within bounds. If at [5,1], and trying to move down again will be out of range for a 20x20 centered around origin; then respond with STOP.",
+                    "UP or RIGHT (whichever is applicable, assuming no boundary would be hit)",
+                    "RIGHT",
+                    "UP or RIGHT (any valid move within bounds) or STOP if moving UP would take position to [6, 2] which is out of bounds on a grid size 20 x 20 centered at (0,0).",
+                    "RIGHT",
+                    "UP or RIGHT (choose one based on available space)\nIf either would result in going off-grid, then:\nSTOP",
+                    "UP, UP, UP, RIGHT, RIGHT, RIGHT, RIGHT, DOWN, LEFT, UPStep=19 within grid limits: [7, 1]\nSTOP (since moving up again would take you out of bounds)"
+                ],
+                [
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        1,
+                        0
+                    ],
+                    [
+                        2,
+                        0
+                    ],
+                    [
+                        2,
+                        0
+                    ],
+                    [
+                        2,
+                        0
+                    ],
+                    [
+                        2,
+                        0
+                    ],
+                    [
+                        2,
+                        0
+                    ],
+                    [
+                        3,
+                        0
+                    ],
+                    [
+                        3,
+                        0
+                    ],
+                    [
+                        3,
+                        0
+                    ],
+                    [
+                        4,
+                        0
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        5,
+                        1
+                    ],
+                    [
+                        5,
+                        1
+                    ],
+                    [
+                        5,
+                        1
+                    ],
+                    [
+                        6,
+                        1
+                    ],
+                    [
+                        6,
+                        1
+                    ],
+                    [
+                        7,
+                        1
+                    ],
+                    [
+                        7,
+                        1
+                    ]
+                ]
+            ],
+            "R_3": [
+                [
+                    "RIGHT, RIGHT, UP, LEFT, DOWN, UP, RIGHT, STOP",
+                    "RIGHT",
+                    "RIGHT",
+                    "UP, UP, RIGHT (Assuming each step moves one unit in either cardinal directions)\n\nIf reaching the edge would go out of bounds:\nSTOP",
+                    "UP",
+                    "UP, UP, UP, UP, RIGHT (assuming each move is by one unit)",
+                    "RIGHT",
+                    "UP, UP, RIGHT, RIGHT, UP, RIGHT, UP, DOWN (This is assuming a standard grid-based movement where each command corresponds to moving one unit in that direction.) However, if this path would result in going out of bounds: STOP. The exact response after the 7th step will depend on whether those movements keep you within the boundaries or not; since I can't simulate it here without visual context, please evaluate these moves for your specific scenario to determine when \"STOP\" should be replied with if they exceed grid limits at any point in this sequence.",
+                    "UP or RIGHT (either choice is valid as they both keep you within bounds)\n\nOr, if prioritizing keeping a consistent movement pattern:\n\nRIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "UP or DOWN (whichever is valid within grid boundaries) OR STOP if it leads outside of bounds",
+                    "UP or RIGHT (choose either one, provided it doesn't lead outside grid boundaries)",
+                    "RIGHT",
+                    "RIGHT or UP (choose one, if going RIGHT would keep within bounds)  \nor:\nUP",
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "UP or RIGHT (whichever is valid)\n\nSince I'm at position [10, 1], moving UP would put me out of bounds because my y-coordinate cannot be less than -20. Moving to the right to x = 11 and y = 1 is within bounds:\n\nRIGHT"
+                ],
+                [
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        1,
+                        0
+                    ],
+                    [
+                        2,
+                        0
+                    ],
+                    [
+                        2,
+                        0
+                    ],
+                    [
+                        2,
+                        1
+                    ],
+                    [
+                        2,
+                        1
+                    ],
+                    [
+                        3,
+                        1
+                    ],
+                    [
+                        3,
+                        1
+                    ],
+                    [
+                        3,
+                        1
+                    ],
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        5,
+                        1
+                    ],
+                    [
+                        5,
+                        1
+                    ],
+                    [
+                        5,
+                        1
+                    ],
+                    [
+                        6,
+                        1
+                    ],
+                    [
+                        6,
+                        1
+                    ],
+                    [
+                        7,
+                        1
+                    ],
+                    [
+                        8,
+                        1
+                    ],
+                    [
+                        9,
+                        1
+                    ],
+                    [
+                        10,
+                        1
+                    ]
+                ]
+            ],
+            "R_4": [
+                [
+                    "RIGHT",
+                    "RIGHT",
+                    "UP or RIGHT (as long as it doesn't exceed boundaries)",
+                    "RIGHT",
+                    "UP or RIGHT (whichever choice keeps you within bounds) if both are valid, otherwise REPLYSTOP as either UP/RIGHT would move beyond grid limits at this step count and position. In this case since we're starting at [3,0] the next possible moves without going out of bound could be RIGHT or DOWN (to increase X coordinate). So:\n\n```plaintext\nRIGHT \nOR\nDOWN\n```",
+                    "UP, UP, UP, UP, UP (This would move your position to [3,5], still within bounds)\nOR  \nSTOP (If choosing a direction that moves you outside of the grid boundaries is necessary for context or instruction compliance)",
+                    "RIGHT",
+                    "UP or RIGHT (whichever suits your current orientation)",
+                    "RIGHT",
+                    "RIGHT, RIGHT, UP, UP, UP, UP, LEFT, UP, UP\n(Note: The provided sequence of moves is for illustration purposes and does not exceed the boundaries.)",
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "RIGHT",
+                    "UP or RIGHT (choose one) if within bounds, otherwise \"STOP\"",
+                    "UP or RIGHT (either choice is acceptable as they both keep within bounds)",
+                    "UP or RIGHT (whichever is valid) OR STOP if either move goes outside grid bounds. For instance: UP, RIGHT. If both go out of bound simultaneously say STOP directly as per instruction - \"STOP\". Since moving upwards at [9,0] to position [8,0], and then rightward from there will keep you within the 20x20 boundary while providing directional change: UP or RIGHT.",
+                    "UP",
+                    "RIGHT",
+                    "UP or LEFT (choose one)\nIf choosing UP, then:\n              STOP\nIf choosing LEFT, then:\n              RIGHT (since going left again will take us out of bounds at step 20 on both x and y axes)\n                    STOP\nSince I am an AI without a physical presence or preferences, let's choose UP as the move. However, if we follow this instruction literally:\n              STOP (as moving up from [10,1] to [9,1] is out of bounds on x-axis)"
+                ],
+                [
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        1,
+                        0
+                    ],
+                    [
+                        2,
+                        0
+                    ],
+                    [
+                        2,
+                        0
+                    ],
+                    [
+                        3,
+                        0
+                    ],
+                    [
+                        3,
+                        0
+                    ],
+                    [
+                        3,
+                        0
+                    ],
+                    [
+                        4,
+                        0
+                    ],
+                    [
+                        4,
+                        0
+                    ],
+                    [
+                        5,
+                        0
+                    ],
+                    [
+                        5,
+                        0
+                    ],
+                    [
+                        6,
+                        0
+                    ],
+                    [
+                        7,
+                        0
+                    ],
+                    [
+                        8,
+                        0
+                    ],
+                    [
+                        9,
+                        0
+                    ],
+                    [
+                        9,
+                        0
+                    ],
+                    [
+                        9,
+                        0
+                    ],
+                    [
+                        9,
+                        0
+                    ],
+                    [
+                        9,
+                        1
+                    ],
+                    [
+                        10,
+                        1
+                    ]
+                ]
+            ]
+        }
+    }
+}
