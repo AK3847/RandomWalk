@@ -55,12 +55,12 @@ class PathAnimation(Scene):
         grid = NumberPlane(
             x_range=[-20, 20, 1],
             y_range=[-20, 20, 1],
-            x_length=20,
-            y_length=20,
+            x_length=10,
+            y_length=10,
             background_line_style={"stroke_color": WHITE, "stroke_opacity": 0.3},
             axis_config={
                 "stroke_width": 2,
-                "font_size": 18,
+                "font_size": 12,
                 "color": WHITE,
             },
         ).add_coordinates()
@@ -76,8 +76,8 @@ class PathAnimation(Scene):
 
         for i, path in enumerate(paths):
             # print(f"{i} --- {path}")
-            points = [np.array([x * 0.5, y * 0.5, 0]) for x, y in path]
-            dot = Dot(points[0], color=colors[i % len(colors)]).scale(1)
+            points = [np.array([x * 0.25, y * 0.25, 0]) for x, y in path]
+            dot = Dot(points[0], color=colors[i % len(colors)]).scale(0.7)
             line = VMobject(color=colors[i % len(colors)])
             line.set_points_as_corners([points[0], points[0]])
             line.set_stroke(width=3 + i * 0.5, opacity=0.7)
@@ -88,7 +88,7 @@ class PathAnimation(Scene):
         for step in range(len(paths[0]) - 1):
             animations = []
             for i, path in enumerate(paths):
-                points = [np.array([x * 0.5, y * 0.5, 0]) for x, y in path]
+                points = [np.array([x * 0.25, y * 0.25, 0]) for x, y in path]
                 if step < len(points) - 1:
                     animations.extend(
                         [
@@ -163,7 +163,7 @@ if __name__ == "__main__":
         "k": "fourk_quality",
     }
     config.quality = quality_map[args.quality]
-    config.save_last_frame = True
+    # config.save_last_frame = True
     # config.images_dir = "./media/images"
     # config.output_file = f"{args.model_name}_temp-{args.temperature}"
 
